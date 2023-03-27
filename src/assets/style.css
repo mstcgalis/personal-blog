@@ -130,7 +130,7 @@
   h6 {
     font-size: 1rem;
     color: var(--color-text-extreme);
-    font-weight: 500;
+    font-weight: 600;
   }
   
   h2,
@@ -221,7 +221,7 @@
   
   b,
   strong {
-    font-weight: 500;
+    font-weight: 600;
   }
   
   aside,
