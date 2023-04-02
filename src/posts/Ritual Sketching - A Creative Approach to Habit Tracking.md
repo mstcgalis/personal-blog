@@ -1,3 +1,12 @@
+---
+title: Ritual Sketching - A Creative Approach to Habit Tracking
+layout: layouts/post.njk
+date: 2023-04-02
+categories: ["tools", "self-governance", "habits"]
+tags: post
+published: true
+---
+
 Can tracking become an exciting and creative practice instead of a boring chore? As a part of my [A TOOL A WEEK](https://www.are.na/prompt-club/a-tool-a-week-fvp2owopmqi) commitment, I worked on a better habit-tracking method, that anyone could potentially modify and use on their journey. After a week of ideation, research, sketching, prototyping and a round of feedback from designer friends, I created a customisable system called **Ritual Sketching**.
 
 First some definitions:
@@ -58,7 +67,7 @@ I use an analogue tracker printed on an A4 which I hang next to my desk. One she
 **PDF Templates**:
 - [the exact one I use](attachments/templates/MINE.pdf)
 - [fully blank](attachments/templates/BLANK_BLANK.pdf)
-- [blank rituals + "shapes" key](attachments/templates/BLANK_SHAPES .pdf)
+- [blank rituals + "shapes" key](attachments/templates/BLANK_SHAPES.pdf)
 - [blank rituals + "abstract" key](attachments/templates/BLANK_ABSTRACT.pdf)
 - [blank rituals + "objects" key](attachments/templates/BLANK_OBJECTS.pdf)
 

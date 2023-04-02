@@ -28,7 +28,14 @@
             {{ date | postDate }},
             <div class="tags">
                 {% for tag in categories %}
-                    {{ tag }}
+                    <!-- if it is the last tag, dont't include a comma after -->
+                    {% if loop.last %}
+                        {#TODO: <a href="/tags/{{ tag }}">#{{ tag }}</a> #}
+                        #{{ tag }}
+                    {% else %}
+                        {#TODO: <a href="/tags/{{ tag }}">#{{ tag }}</a>, #}
+                        #{{ tag }}</a>,
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

@@ -3,9 +3,17 @@ layout: layouts/base.njk
 title: Daniel Gális
 ---
 
-<p> Hi, I'm Vasil (or xvburak), a self-taught developer, designer, and researcher. I'm passionate about exploring always something new — currently architecture, chrono-anarchy and communal life.<p>
+<p>Hi! I'm Daniel. On the internet I go by @danielmstc or @mstcgalis.</p>
 
-<p> You can reach out to me via <a href="mailto:burak.vasil@gmail.com">e-mail</a> or meet me on <a target="_blank" href="https://www.are.na/xvburak">are.na</a></p>
+<p>I'm trying to make tools that emancipate individuals and communities. I love researching and designing interfaces, experiences and digital products. Sometimes I code.</p>
+
+<p>Doing the life thing by building good habits and working towards a better tomorrow.</p>
+
+<h2>Contact</h2>
+  <a href="mailto:danielgalis21@gmail.com">E-mail,</a>
+  <a href="https://are.na/daniel-galis">Are.na,</a>
+  <span>Discord: danielmstc#2967</span>
+</p>
 
   <h2>Writing</h2>
 
@@ -17,28 +25,16 @@ title: Daniel Gális
               {{post.data.title}}
               <div class="tags">
                   {% for tag in post.data.categories %}
-                      {{tag}}
+                    {% if loop.last %}
+                      <!-- TODO:<a href="/tags/{{tag}}">#{{tag}}</a> -->
+                      #{{tag}}
+                    {% else %}
+                      #{{tag}},
+                    {% endif %}
                   {% endfor %}
               </div>
             </a>
           </li>
           {% endif %}
-        {% endfor %}
-    </ul>
-
-    <h2>Reading</h2>
-
-  <ul class="posts">
-      {% for post in collections.book | reverse %}
-        <li>
-          <a href="{{post.url}}">
-            {{post.data.title}}
-            <div class="tags">
-                {% for i in range(post.data.stars) %}
-                    ★
-                {% endfor %}
-            </div>
-          </a>
-        </li>
         {% endfor %}
     </ul>
