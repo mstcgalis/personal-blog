@@ -1,11 +1,3 @@
----
-title: Ritual Sketching - A Creative Approach to Habit Tracking
-layout: layouts/post.njk
-date: 2023-03-18
-categories: ["tool"]
-tags: post
-published: true
----
 Can tracking become an exciting and creative practice instead of a boring chore? As a part of my [A TOOL A WEEK](https://www.are.na/prompt-club/a-tool-a-week-fvp2owopmqi) commitment, I worked on a better habit-tracking method, that anyone could potentially modify and use on their journey. After a week of ideation, research, sketching, prototyping and a round of feedback from designer friends, I created a customisable system called **Ritual Sketching**.
 
 First some definitions:
@@ -57,21 +49,23 @@ When a person performs a certain habit, they draw the corresponding thing into t
 With sketching, there's a lot of opportunity for non-boolean reflectivity. Some simple ideas to start with: 
 - the size of the shape reflects the length of the ritual
 - the placement of the shape reflects the time of day the ritual was performed
+
 # My implementation (templates included)
-**Ritual Sketching** as a system and practice can be implemented in many different forms. Here I will provide my implementation(s) along with a blank template to get you started!
+**Ritual Sketching** as a system and practice can be implemented in many different forms. Here I will provide my implementation(s) along with some templates to get you started!
 
 I use an analogue tracker printed on an A4 which I hang next to my desk. One sheet contains 5 rows of 7 **start(s)** for a total of 35 days, which is more than enough for a month's worth of sketching. The key is printed at the top along with a space to fill out the *start* and *end* dates.
 
-**Templates** (as ordered in the PDF):
-- the exact one I use
-- fully blank
-- blank rituals + "shapes" key
-- blank rituals + "abstract" key
-- blank rituals + "object" key
+**PDF Templates**:
+- [the exact one I use](attachments/templates/MINE.pdf)
+- [fully blank](attachments/templates/BLANK_BLANK.pdf)
+- [blank rituals + "shapes" key](attachments/templates/BLANK_SHAPES .pdf)
+- [blank rituals + "abstract" key](attachments/templates/BLANK_ABSTRACT.pdf)
+- [blank rituals + "objects" key](attachments/templates/BLANK_OBJECTS.pdf)
+
+## Update
+After ~2 weeks of tracking on the wall, I switched to using a notebook. Each day gets its own page split into two sections: **tasks** on the top and **ritual sketching** on the bottom. I think the portability of the notebook makes me use the tracker more, plus it just feels more cozy. I'll make sure to update this post if I try any other modifications or implementations.
+![[photo_2023-03-31 14.16.41.jpeg]]
 
 # Final thoughts
 I'm looking forward to using this technique in the coming months, as only time will tell how well it truly works. Then there's an exciting idea I got from my friends - to implement **Ritual Sketching** in a paper notebook or some kind of digital space, both of which will provide an affordance to "animate" individual sketches into a moving picture. I'll post an update once I gather more experiences, thoughts and prototypes. Thanks for reading! 
-
-Be with love and care,
-[Daniel Gális](https://danielgalis.com)
 
