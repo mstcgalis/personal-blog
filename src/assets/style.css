@@ -1,6 +1,8 @@
 :root {
     --font-size-body: 17px;
     --font-size-mono: 15px;
+    
+    --font-weigh-bold: 600;
   
     --color-background: #fff;
     --color-offset: #eee;
@@ -8,7 +10,8 @@
     --color-gray: #767676;
     --color-text: #3d3d3d;
     --color-text-extreme: #000;
-    --color-accent: #00823d;
+    --color-accent: #2B73C6;
+    --color-accent-hover: #4E87C9;
   
     --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
@@ -130,7 +133,7 @@
   h6 {
     font-size: 1rem;
     color: var(--color-text-extreme);
-    font-weight: 600;
+    font-weight: var(--font-weigh-bold);
   }
   
   h2,
@@ -195,7 +198,7 @@
     margin-left: -2rem;
     content: "—";
     color: var(--color-faded);
-    font-weight: 500;
+    font-weight: var(--font-weigh-bold);
     margin-right: 0.5rem;
   }
   
@@ -209,7 +212,7 @@
     position: absolute;
     margin-left: -2rem;
     color: var(--color-faded);
-    font-weight: 500;
+    font-weight: var(--font-weigh-bold);
     margin-right: 0.5rem;
     content: counter(list) ".";
     counter-increment: list;
@@ -221,7 +224,7 @@
   
   b,
   strong {
-    font-weight: 600;
+    font-weight: var(--font-weigh-bold);
   }
   
   aside,
