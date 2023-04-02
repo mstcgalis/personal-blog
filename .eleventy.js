@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const path = require('path');
 
 module.exports = eleventyConfig => {
 
@@ -16,11 +17,10 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/assets/post.css");
 	eleventyConfig.addPassthroughCopy("src/assets/homepage.css");
-    eleventyConfig.addPassthroughCopy("src/assets/strava.js");
+	eleventyConfig.addPassthroughCopy("src/posts/attachments");
 
     eleventyConfig.addWatchTarget("src/assets/post.css");
 	eleventyConfig.addWatchTarget("src/assets/homepage.css");
-	eleventyConfig.addWatchTarget("src/assets/strava.js");
     eleventyConfig.addWatchTarget("src/assets");
 
 
